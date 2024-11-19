@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* h1 {
+  text-align: center;
+} */
+
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#todo-input {
+  width: 70%;
+  padding: 10px;
+}
+
+#add-button {
+  padding: 10px;
+}
+
+#todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#todo-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  text-align: left;
+}
+
+.delete-button {
+  position: absolute;
+  right: 10px;
+  color: red;
+  cursor: pointer;
+}
